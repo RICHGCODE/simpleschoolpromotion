@@ -1,0 +1,90 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    background-color: #003366;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #dddddd;
+  }
+  
+  .footer {
+    background-color: #003366;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .box {
+    border: 2px solid #003366;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .right {
+    text-align: right;
+  }
+  
+  .colored {
+    color: #003366;
+  }
+  
+  .text-yellow {
+    color: #ff0000;
+  }
+  
+  .float-right {
+    float: right;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .float-right.box {
+    width: 100%;
+    padding: 25px;
+  }
+  
+  .float-right.box ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 0;
+  }
+  
+  .float-right.box ul li::before {
+    content: "*";
+    padding-right: 5px;
+  }
+
+  /* styles.css */
+
+/* Adjust the logo size */
+.logo {
+  max-width: 150px; /* Adjust the width as needed */
+  height: auto;
+}
+
+/* Increase the font size of headers and other text */
+.header h2,
+.box h3,
+.box p,
+.footer{
+  font-size: 50px; /* Adjust the font size as needed */
+}
+.box ul li {
+  font-size: 40px; /* Adjust the font size for list items */
+}
+
+
+
+
